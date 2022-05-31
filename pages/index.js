@@ -120,7 +120,7 @@ export default function Home() {
             }}
             drag='y'
             onDragEnd={() => {
-              if (scrollY.get() > 110) {
+              if (scrollY.get() > 90) {
                 setNumOfItems(0);
               }
             }}
