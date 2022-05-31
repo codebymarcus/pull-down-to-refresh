@@ -85,7 +85,7 @@ export default function Home() {
 
   return (
     <div className='fixed inset-0 flex items-center justify-center'>
-      <div className='border-8 border-black/70 flex flex-col  rounded-xl overflow-hidden w-full h-full'>
+      <div className='border-8 border-black/70 flex flex-col overflow-hidden w-full h-full'>
         <div className='bg-slate-700 p-10 text-white text-center'>
           <h1 className='text-3xl'>HEADER</h1>
         </div>
@@ -133,7 +133,7 @@ export default function Home() {
             }}
             dragElastic={{
               top: 0,
-              bottom: 0.2,
+              bottom: 0.5,
             }}
             ref={getWrapperRef}
             className='body grid grid-cols-2 p-2 gap-2 w-full'
